@@ -1,0 +1,19 @@
+.content-card {
+  width: 50vw;
+  box-shadow: 4px 8px 16px 0px #bfbf;
+  margin-bottom: 30px;
+}
+
+.content-img {
+  width: 100%;
+}
+
+.content-txt {
+  margin-left: 20px;
+}
+
+.content-top {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
