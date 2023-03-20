@@ -98,9 +98,6 @@ class LoginForm extends Component {
                 onChange={this.onPassword}
                 id="passwordInput"
               />
-              <Link to="/password">
-                <p className="forgot-password-txt">Forgot Password ?</p>
-              </Link>
 
               <button
                 onClick={this.loginSubmitBtn}

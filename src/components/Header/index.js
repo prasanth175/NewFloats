@@ -25,9 +25,6 @@ class Header extends Component {
           <Link className="nav-link" to="/">
             <li className="nav-item">Home</li>
           </Link>
-          <Link className="nav-link" to="/product">
-            <li className="nav-item">All Contents</li>
-          </Link>
           <Link className="nav-link" to="/create-content">
             <li className="nav-item">Create Content</li>
           </Link>
@@ -40,10 +37,7 @@ class Header extends Component {
             // onChange={this.renderProducts}
           >
             <option>Hi, {activeUsername}</option>
-            <option value="products">Your Products</option>
             <option value="Change Password">Change Password</option>
-            <option>Contact Us</option>
-            <option>About</option>
           </select>
           <button type="button" className="logout-btn" onClick={this.onLogout}>
             Logout
